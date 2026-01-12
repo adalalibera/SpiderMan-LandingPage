@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face{
+    font-family: SpiderMan;
+    src: url("./fonts/Amazing\ Spider\ Man\ -\ cópia.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: SpiderMan;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background:#021229;
+}
+
+.header{
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+    background-image: url(../SpiderMan/img/Header.jpg);
+    background-repeat: no-repeat; /* Evita repetição */
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+}
+
+.logo{
+    width: 160px;
+    margin: 0px 0px 0px -40px;
+    /* border: 1px solid white; */
+}
+
+.headline{
+    margin-left: 10%;
+    /* border: 1px solid white; */
+    max-width: 1200px;
+    width: 43%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.headline h2{
+    font-size: 45px;
+    text-align: left;
+    padding: 0;
+}
+
+.headline p{
+    color: white;
+    font-size: 24px;
+    padding: 0;
+}
+
+.btn-vermelho{
+    font-family: SpiderMan;
+    font-size: 20px;
+    background: linear-gradient(90deg, #950A1D, #2F0309);
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 80px 20px 80px;
+    border-radius: 50px 0px 50px 50px;
+}
+
+.btn-azul{
+    font-family: SpiderMan;
+    font-size: 20px;
+    background: linear-gradient(90deg, #021229, #073F8F);
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 80px 20px 80px;
+    border-radius: 50px 0px 50px 50px;
+}
+
+.section2{
+    background: #950A1D;
+    position: relative;
+    padding: 40px 0px 84px 0px;
+
+    overflow: visible;
+}
+
+.container2{
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.miolo02{
+    top: -20px;
+    /* border: 1px solid green; */
+    width: 55%;
+    z-index: 10;
+    padding: 50px;
+}
+
+.miolo02 h2{
+    font-size: 40px;
+}
+
+.miolo02 p{
+    font-size: 24px;
+    color: white;
+}
+
+/* Isso aqui é a div */
+.img-miolo2{
+    display: flex;
+    align-items: left;
+    position: absolute;
+    height: auto;
+    /* border: 1px solid white; */
+    left: -80px;
+    top: -200px;
+    width: 820px;
+    z-index: 8;
+}
+
+/* Isso aqui é a imagem */
+.img-miolo2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.linha{
+    background: linear-gradient(90deg, #021229, #073F8F);
+    font-family: SpiderMan;
+    padding: 7px;
+}
+
+.section03{
+    background-image: url(../SpiderMan/img/TerceiraDobra.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-end;
+
+    min-height: 100vh;
+    padding: 60px 5%;
+}
+
+.section03 h2{
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
+
+.bottom-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card{
+    background: linear-gradient(180deg, #950A1D, #2F0309);
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.section04{
+    border: 1px solid white;
+    position: relative;
+    overflow: visible;
+    align-items: center;
+}
+
+.section04 h2{
+    font-size: 40px;
+}
+
+.section04 p{
+    color: white;
+}
+
+.container04{
+    border: 1px solid green;
+}
+
+.miolo04{
+    border: 1px solid orange;
+    width: 50%;
+}
+
+.img-miolo04{
+    border: 1px solid blue;
+    width: 50%;
+    z-index: 10;
+}
