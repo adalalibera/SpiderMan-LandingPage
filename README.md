@@ -1,5 +1,7 @@
 # SpiderMan-LandingPage
-A landingpage about the Spider Man 2 game on ps5
+A landingpage about the Spider Man 2 game on ps5, here is the link for the design on figma
+
+https://www.figma.com/design/9OVgWP2GlNBtP7VJP2fkvv/Spider-Man-2?node-id=0-1&t=d9HNhj8PznZ5QZ5Y-1
 
 # Spider-Man 2 Landing Page
 
