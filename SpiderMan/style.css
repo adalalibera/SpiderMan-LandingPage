@@ -22,6 +22,8 @@ body {
     background:#021229;
 }
 
+    /* <--  1. PRIMEIRA DOBRA --> */
+
 .header{
     display: flex;
     flex-flow: row;
@@ -43,12 +45,12 @@ body {
 }
 
 .headline{
+    margin-bottom: 10%;
+    margin-top: 5%;
     margin-left: 10%;
     /* border: 1px solid white; */
     max-width: 1200px;
     width: 43%;
-    margin-bottom: 10%;
-    margin-top: 5%;
 }
 
 .headline h2{
@@ -62,6 +64,8 @@ body {
     font-size: 24px;
     padding: 0;
 }
+
+    /* <--  BOTÕES--> */
 
 .btn-vermelho{
     font-family: SpiderMan;
@@ -84,6 +88,8 @@ body {
     padding: 20px 80px 20px 80px;
     border-radius: 50px 0px 50px 50px;
 }
+
+    /* <--  2. SEGUNDA DOBRA --> */
 
 .section2{
     background: #950A1D;
@@ -146,6 +152,8 @@ body {
     padding: 7px;
 }
 
+    /* <--  3. TERCEIRA DOBRA --> */
+
 .section03{
     background-image: url(../SpiderMan/img/TerceiraDobra.png);
     background-size: cover;
@@ -192,11 +200,19 @@ body {
     padding: 20px;
 }
 
+    /* <--  4. QUARTA DOBRA --> */
+
 .section04{
-    border: 1px solid white;
+    display: flex;
+    flex-flow: row;
+
+    /* border: 1px solid white; */
     position: relative;
     overflow: visible;
     align-items: center;
+
+    width: 100%;
+    max-width: 1200px;
 }
 
 .section04 h2{
@@ -207,17 +223,182 @@ body {
     color: white;
 }
 
-.container04{
-    border: 1px solid green;
-}
-
 .miolo04{
-    border: 1px solid orange;
-    width: 50%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 50px 0px 50px 50px;
+    /* border: 1px solid orange;  */
+    width: 55%;
+    bottom: -150px;
 }
 
 .img-miolo04{
-    border: 1px solid blue;
-    width: 50%;
+    /* border: 1px solid blue;  */
+    width: 40%;
     z-index: 10;
+
+    display: flex;
+    align-items: right;
+    position: absolute;
+    height: 700px;
+    right: -80px;
+    bottom: -100px;
+    width: 620px;
 }
+
+    /* <--  5. QUINTA DOBRA --> */
+
+.section05{
+    /* border: 1px solid white; */
+    background: #950A1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 80px 0;
+    width: 100%;
+}
+
+.section05 h2{
+    /* border: 1px solid blue; */
+    font-size: 40px;
+    text-align: center;
+
+    width: 100%;
+    justify-content: center;
+}
+
+.bottom-content{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.card05{
+    background: #5B0612;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.btn05{
+    margin-top: 20px;
+    text-align: center;
+}
+
+    /* <--  6. SEXTA DOBRA --> */
+
+.section06{
+    background-image: url(../SpiderMan/img/QuintoSlice.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.section06 p{
+    font-size: 20px;
+    color: white;
+    z-index: 12;
+}
+
+.miolo06{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+
+    width: 100%;
+    max-width: 800px;
+
+    z-index: 8;
+}
+
+.miolo06 h2{
+    font-size: 40px;
+    z-index: 12;
+    margin: 0;
+}
+
+.img-06{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+   
+}
+
+.img-06 img{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: auto;
+}
+
+    /* <!--  7. SETIMA DOBRA --> */
+
+    .section07{
+        z-index: 20;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        min-height: 100vh;
+        background: #950A1D;
+        overflow: hidden;
+    }
+
+    .miolo07{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .miolo07 h2{
+        font-size: 40px;
+    }
+
+    .lista-card{
+        display: grid;
+    }
+
+   .listas{
+    color: white;
+    border-radius: 15px;
+    background: #021229;
+
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
+    list-style: none;
+   }
